@@ -1,6 +1,6 @@
 # React - Vite with SASS Template
 
-To use this template `create a new repository` using this template
+To use this template `create a new repository` using this template by clicking the `use this template` button on the top right corner of this repository
 
 Clone the new repository that you just created in your local matching
 
