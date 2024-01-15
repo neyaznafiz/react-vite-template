@@ -8,4 +8,21 @@ Open your terminal and go to the right path of this file
 
 Run `yarn install` or `npm install` 
 
+## Live SCSS Compilation (VS Code Extension)
+
+For new machine Add following code on VS Code's `settings.json` file if not included already:
+
+```json
+"liveSassCompile.settings.generateMap": false,
+"liveSassCompile.settings.showOutputWindow": true,
+"liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+"liveSassCompile.settings.formats": [
+  {
+    "format": "expanded",
+    "extensionName": ".css",
+    "savePath": "~/../css"
+  }
+],
+```
+
 Run `yarn dev` or `npm run dev` to run this project.
