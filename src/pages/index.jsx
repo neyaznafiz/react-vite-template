@@ -1,5 +1,2 @@
 export * from './Home'
-export * from './Showcase'
-export * from './Blog'
-export * from './Contact'
 export * from './NotFound'

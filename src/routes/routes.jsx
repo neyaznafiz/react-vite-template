@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Blog, Contact, Home, NotFound } from "../pages";
+import { Home, NotFound } from "../pages";
 import { Main } from "../layout";
 // import { Contact, Home, Blog, NotFound } from "./Pages";
 
@@ -13,14 +13,6 @@ const routes = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-      },
-      {
-        path: "/neyaz-posts",
-        element: <Blog />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
       },
       {
         path: "*",

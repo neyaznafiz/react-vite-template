@@ -1,4 +1,4 @@
-import '../../resource/css/loading.css'
+import '../../resource/css/welcome-loading.css'
 
 export const Loading = () => {
   return (
