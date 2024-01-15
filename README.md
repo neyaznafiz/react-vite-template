@@ -1,4 +1,4 @@
-# React - Vite with SASS Template
+# React - Vite with SCSS Template
 
 To use this template `create a new repository` using this template by clicking the `use this template` button on the top right corner of this repository
 
