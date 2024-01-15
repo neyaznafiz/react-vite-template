@@ -1,0 +1,41 @@
+:root {
+  // BRAND SPECIFIC TYPEFACES
+  --generic-font: sans-serif;
+  --primary-font: 'Archivo', sans-serif;
+
+  // GENERIC COLOR PALETTE!
+  --generic-white: #FFFFFF;
+  --generic-black: #000000;
+
+  // BRAND SPECIFIC COLOR PALETTE!
+  // DON'T USE THOSE VARIABLES ANYWHERE
+  --light-col-1: #eeeeee;
+  --light-col-2: #f4f4f4;
+  --light-col-3: #e6e6e6;
+  --light-col-4: #b8b8b8;
+
+  --dark-col-1: #181818;
+  --dark-col-2: #4e4e4e;
+  --dark-col-3: #3c3c3c;
+  --dark-col-4: #656565;
+
+  --green-col: #80d497;
+  --purple-col: #8a7ed4;
+
+  // USE THOSE VARIABLES IN PROJECT
+  --header-text-col-light: var(--light-col-4);
+  --header-text-col-dark: var(--dark-col-2);
+
+  --dark-bg-col-1: var(--dark-col-1);
+  --light-bg-col-1: var(--light-col-1);
+  --light-bg-col-2: var(--light-col-2);
+
+  --text-col-1: var(--dark-col-3);
+  --text-col-2: var(--dark-col-4);
+  --text-col-3: var(--light-col-1);
+  --text-col-4: var(--dark-col-1);
+  --text-col-5: var(--purple-col);
+  --text-col-6: var(--green-col);
+
+  --input-col-1: var(--light-col-3);
+}
